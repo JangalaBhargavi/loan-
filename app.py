@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-clf=joblib.load(loan.joblib')
+clf=joblib.load('loan.joblib')
 
 st.title('LOAN APP RCE')
 g=st.number_input('Enter Gender 0:Male 1:Female')
